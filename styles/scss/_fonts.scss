@@ -1,0 +1,81 @@
+body,
+form,
+textarea {
+    font-family: 'Cabin', sans-serif;
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+button,
+li {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2.1rem;
+    letter-spacing: 0.1rem;
+}
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.13rem;
+}
+h4 {
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+}
+h4 a,
+button {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    border: 1px solid #F38D8D;
+    background-color: #F38D8D;
+    padding: 10px 40px;
+}
+button {
+    font-size: 1.1rem;
+    padding: 5px 0;
+    width: 100%;
+}
+.title-div h2 {
+    position: absolute;
+    top: 360px;
+    font-size: 4rem;
+
+}
+p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01rem;
+}
+.blog-p p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+    margin-top: 15px;
+}
+.blog-aside-nav li a {
+    font-family: 'Cabin', sans-serif;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+}
+
+form,
+textarea {
+    font-size: 1rem;
+    color: black;
+    padding: 3% 0;
+    border: 0;
+    margin-bottom: 3%;
+}
+.aside-email {
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+// HOMEPAGE HEADER
+
+header {
+    background-color: #B9DDE7;
+    height: 80vh;
+}
+.header-img {
+    width: 45%;
+}
+.header-img img {
+    width: 85%;
+    box-shadow: 15px 20px white;
+    flex: 1 0 auto;
+}
+.header-text {
+    position: relative;
+    width: 55%;
+}
+.circle-text img {
+    position: absolute;
+    width: 24%;
+    top: -32%;
+    left: 60%;
+}
+
+// BLOG PAGE HEADER
+
+.blog-header {
+    height: 400px;
+    background-image:url(../assets/blog-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-header {
+    background-image:url(../assets/contact-image-1.jpg);
+}

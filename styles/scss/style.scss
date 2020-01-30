@@ -1,0 +1,245 @@
+@import 'setup';
+@import 'navigation';
+@import 'fonts';
+@import 'headers';
+
+.wrapper {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+h1 {
+    font-size: 8.5rem;
+    position: relative;
+}
+.hero-page {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+.about-harper {
+    background: #F6F6F6;
+    height: 65vh;
+    }
+.about-harper-div {
+    margin-left: 45%;
+    padding-top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 42%;
+}
+.fas {
+   font-size: 1.9rem;
+}
+.text-tiles-background {
+    background: #F6F6F6;
+}
+.text-tiles {
+    background: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:5%;
+    padding-bottom: 5%;
+}
+.tile {
+    width: 40%;
+    margin:2% 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.tile2 {
+    width: 100%;
+    // margin:2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // align-items: baseline;
+}
+.tile2-img {
+width: 11%;
+margin-right: 4%;
+}
+.tile2-text {
+    width: 80%;
+}
+.tile2-text p {
+    margin: 0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B9DDE7;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 82%;
+    margin: 0 0 0 2%;
+    padding-top: 2%;
+}
+.box-text p {
+    margin-top: 4%;
+}
+.blog-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.blog-preview-img {
+    width: 50%;
+}
+.blog-preview-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.box-shadow-1 {
+    position: relative;
+    margin-bottom: 5%;
+    bottom: 30px;
+    box-shadow: -20px 20px 0px 0px #227284, -300px 20px #227284;
+    
+}
+
+.box-shadow-2 {
+    box-shadow: 20px 20px 0px 0px #B9DDE7, 300px 20px 0px 0px #B9DDE7;
+}
+
+
+
+.blog-preview-text-one {
+    padding-left: 7%;
+    margin-bottom: 5%;
+}
+.blog-preview-text-two {
+    padding-right: 7%;
+}
+.harpers-journey {
+    background: #F6F6F6;
+    display: flex;
+    padding: 10% 0;
+}
+.harpers-journey-img {
+    width: 36%;
+    display: flex;
+    justify-content: center;
+}
+.harpers-journey-img img {
+    width: 50%;
+    box-shadow: 15px 15px #227284;
+}
+.harpers-journey-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 56%;
+}
+.gallery {
+    margin:5% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-box {
+    width: 25%;
+}
+footer {
+    padding: 0.5% 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.blog-body {
+    background: #F6F6F6;
+}
+.blogs-page {
+    margin-top: 7%;
+    display: flex;
+
+}
+.blogs-left {
+    width: 30%;
+}
+.blogs-right {
+    width: calc(70% - 20px);
+    margin-left: 20px;
+}
+
+aside,
+article {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 15px;
+}
+aside img {
+    margin-bottom: 20px;
+}
+.blog-aside-nav {
+    margin-top: 8%;
+}
+.contact-aside {
+    justify-content: space-between;
+    height: 40vh;
+    
+
+}
+.blue-border {
+    border-bottom: 5px solid #227284;
+
+}
+.secondary-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+input[type=text],
+input[type=email] {
+    width: 49%;
+    height: 50px;
+    margin: 10px 0;
+    border: 0;
+}
+textarea,
+input {
+    text-indent: 30px;
+}
+.social-icons {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    color: #227284;
+}
