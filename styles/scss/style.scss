@@ -206,11 +206,11 @@ aside img {
 .contact-aside {
     justify-content: space-between;
     height: 40vh;
-    
-
+    margin-top:0;
 }
 .blue-border {
     border-bottom: 5px solid #227284;
+    margin-bottom: 2%;
 
 }
 .secondary-articles {
@@ -224,16 +224,18 @@ aside img {
     justify-content: space-between;
     margin-bottom: 1.5%;
 }
+
 input[type=text],
 input[type=email] {
     width: 49%;
     height: 50px;
-    margin: 10px 0;
     border: 0;
 }
+
 textarea,
 input {
     text-indent: 30px;
+    resize: none;
 }
 .social-icons {
     font-size: 2rem;
@@ -242,4 +244,10 @@ input {
     justify-content: space-between;
     width: 70%;
     color: #227284;
+}
+.fab {
+    transition: 0.2s;
+}
+.fab:hover {
+    color:#B9DDE7;
 }

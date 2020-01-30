@@ -242,6 +242,16 @@ a {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.nav-white {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: whitesmoke;
 }
 
 .secondary-header-nav {
@@ -266,9 +276,10 @@ form {
 
 body,
 form,
-textarea {
+textarea,
+input[type=text],
+input[type=email] {
   font-family: 'Cabin', sans-serif;
-  font-size: 62.5%;
 }
 
 h1,
@@ -310,12 +321,43 @@ button {
   font-size: 1.1rem;
   padding: 5px 0;
   width: 100%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: white;
+  -webkit-box-shadow: 3px 3px black;
+          box-shadow: 3px 3px black;
 }
 
 .title-div h2 {
   position: absolute;
   top: 360px;
   font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.nav-white {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  -webkit-box-shadow: 3px 3px black;
+          box-shadow: 3px 3px black;
+}
+
+nav a:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 p {
@@ -344,9 +386,16 @@ form,
 textarea {
   font-size: 1rem;
   color: black;
-  padding: 3% 0;
   border: 0;
-  margin-bottom: 3%;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+textarea {
+  padding: 3% 0;
+  margin: 10px 0 25px 0;
 }
 
 .aside-email {
@@ -354,6 +403,10 @@ textarea {
   letter-spacing: 0.02rem;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
+}
+
+.aside-email:hover {
+  color: #B9DDE7;
 }
 
 header {
@@ -723,10 +776,12 @@ aside img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 40vh;
+  margin-top: 0;
 }
 
 .blue-border {
   border-bottom: 5px solid #227284;
+  margin-bottom: 2%;
 }
 
 .secondary-articles {
@@ -758,13 +813,13 @@ input[type=text],
 input[type=email] {
   width: 49%;
   height: 50px;
-  margin: 10px 0;
   border: 0;
 }
 
 textarea,
 input {
   text-indent: 30px;
+  resize: none;
 }
 
 .social-icons {
@@ -781,4 +836,13 @@ input {
           justify-content: space-between;
   width: 70%;
   color: #227284;
+}
+
+.fab {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fab:hover {
+  color: #B9DDE7;
 }

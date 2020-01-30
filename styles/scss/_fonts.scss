@@ -1,8 +1,9 @@
 body,
 form,
-textarea {
+textarea,
+input[type=text],
+input[type=email] {
     font-family: 'Cabin', sans-serif;
-    font-size: 62.5%;
 }
 h1,
 h2,
@@ -38,6 +39,12 @@ button {
     font-size: 1.1rem;
     padding: 5px 0;
     width: 100%;
+    transition: 0.2s;
+}
+button:hover {
+    color: white;
+    box-shadow: 3px 3px black;
+    
 }
 .title-div h2 {
     position: absolute;
@@ -45,6 +52,24 @@ button {
     font-size: 4rem;
 
 }
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.4rem;
+    transition: 0.2s;
+}
+
+.nav-white {
+    color: white;
+}
+a:hover {
+    color: white;
+    box-shadow: 3px 3px black;
+}
+nav a:hover {
+    box-shadow: none;
+}
+
 p {
     font-size: 1rem;
     line-height: 1.8rem;
@@ -69,9 +94,15 @@ form,
 textarea {
     font-size: 1rem;
     color: black;
-    padding: 3% 0;
     border: 0;
-    margin-bottom: 3%;
+    
+}
+form {
+    margin-bottom: 100px;
+}
+textarea {
+    padding: 3% 0;
+    margin: 10px 0 25px 0;
 }
 .aside-email {
     font-size: 1rem;
@@ -79,3 +110,7 @@ textarea {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
+.aside-email:hover {
+    color: #B9DDE7;
+}
+
