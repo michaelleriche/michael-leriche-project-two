@@ -1,0 +1,42 @@
+@media (max-width: 740px) {
+
+    .social-icons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+       font-size: 3rem;
+    }
+
+    form,
+    aside,
+    article {
+        width: 100%;
+    }
+    .blogs-page {
+        margin-top: 10%;
+        display: block;
+    
+    }
+    .blogs-left {
+        width: 100%;
+    }
+    .blogs-right {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .contact-aside {
+        display: flex;
+
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10%;
+
+    }
+    
+    aside,
+    article {
+        display: block;
+        width: 100%;
+    }
+}

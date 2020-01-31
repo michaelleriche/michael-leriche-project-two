@@ -29,11 +29,11 @@ h4 {
 }
 h4 a,
 button {
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
-    border: 1px solid #F38D8D;
-    background-color: #F38D8D;
-    padding: 10px 40px;
+    border: 1px solid $first-accent;
+    background-color: $first-accent;
+    padding: 7px 20px;
 }
 button {
     font-size: 1.1rem;
@@ -104,13 +104,9 @@ textarea {
     padding: 3% 0;
     margin: 10px 0 25px 0;
 }
-.aside-email {
-    font-size: 1rem;
-    letter-spacing: 0.02rem;
+a.aside-email {
     font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-}
-.aside-email:hover {
-    color: #B9DDE7;
+    text-transform: uppercase;
+
 }
 

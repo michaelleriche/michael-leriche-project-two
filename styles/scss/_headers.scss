@@ -10,18 +10,23 @@ header {
 .header-img img {
     width: 85%;
     box-shadow: 15px 20px white;
-    flex: 1 0 auto;
 }
 .header-text {
     position: relative;
     width: 55%;
 }
-.circle-text img {
-    position: absolute;
-    width: 24%;
-    top: -32%;
-    left: 60%;
+.circle-text {
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
 }
+
+h1::after {
+    content:url(../assets/circle-text.png);
+    position: relative;
+    bottom: 200px;
+    left: 330px;
+  }
 
 // BLOG PAGE HEADER
 
@@ -34,6 +39,9 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
+
+// CONTACT PAGE HEADER 
+
 .contact-header {
     background-image:url(../assets/contact-image-1.jpg);
 }
