@@ -22,11 +22,16 @@ header {
 }
 
 h1::after {
-    content:url(../assets/circle-text.png);
-    position: relative;
-    bottom: 200px;
-    left: 330px;
-  }
+    background-image: url(../assets/circle-text.png);
+    background-size: 140px 140px;
+    display: inline-block;
+    position: absolute;
+    bottom: 40px;
+    left: 350px;
+    width: 140px;
+    height: 140px;
+    content:"";
+}
 
 // BLOG PAGE HEADER
 
