@@ -1,11 +1,43 @@
 @media (max-width: 740px) {
-
+    header {
+        height: 55vh;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h1::after {
+        background-size: 80px 80px;
+        width: 80px;
+        height: 80px;
+        bottom: 30px;
+        left: 210px;
+    }
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+        letter-spacing: 0.13rem;
+    }
+    h4 {
+        font-size: 0.9rem;
+        letter-spacing: 0.02rem;
+    }
+    p {
+        line-height: 1.5rem;
+    }
+    h4 a {
+        font-size: 1rem;
+        padding: 5px 18px;
+    }
     .social-icons {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
        font-size: 3rem;
     }
+  
 
     form,
     aside,
@@ -18,7 +50,27 @@
     
     }
     .blogs-left {
+        display: none;
+    }
+    .blog-section-740 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: left;
         width: 100%;
+    }
+    .blog-section-740-img {
+        width: 40%;
+
+    }
+    .blog-section-740-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+
+        width: 50%;
+        padding-left: 8%;
     }
     .blogs-right {
         width: 100%;
@@ -27,16 +79,34 @@
     }
     .contact-aside {
         display: flex;
-
         text-align: center;
         width: 100%;
         margin-bottom: 10%;
 
     }
-    
+    .harpers-journey {
+        display: flex;
+        height: 60vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: space-around;
+        text-align: left;
+    }
+
+    .harpers-journey img {
+        width: 200px;
+        height: 200px;
+    }
+
     aside,
     article {
         display: block;
         width: 100%;
+    }
+    .box-shadow-1 img {
+        bottom: -40px;
+        right: 0px;
+        box-shadow: 20px 20px 0px 0px #68B0C1, -250px 20px #68B0C1;
+       
     }
 }

@@ -1,2 +1,82 @@
 @media (max-width: 450px) {
+
+    .container {
+        width: 95%; 
+    }
+    header {
+        height: 50vh;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+
+    h1::after {
+        background-size: 65px 65px;
+        width: 65px;
+        height: 65px;
+        bottom: 20px;
+        left: 160px;
+    }
+    .tile {
+        width: 100%;
+    }
+    .blog-preview-container,
+    .harpers-journey {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .harpers-journey {
+        height:700px;
+    }
+    .harpers-journey img {
+        margin-bottom: 50px;
+    }
+    .blog-preview-img,
+    .harpers-journey-img {
+        width: 100%;
+    }
+    .harpers-journey-text {
+    justify-content: space-evenly;
+    height: 80vh;
+    }
+    .blog-preview-text h3 {
+        margin-top: 5%;
+    }
+    .harpers-journey-text,
+    .blog-preview-text {
+        width: 90%;
+        margin: auto;
+    }
+    .box-shadow-1 img,
+    .box-shadow-2 img {
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .blog-preview-text-one,
+    .blog-preview-text-two,
+    .fav-things,
+    .harpers-journey-text {
+        text-align: center;
+        padding: 0;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-evenly;
+        margin-top: 50px;
+        height: 1200px;
+    }
+   .gallery-box {
+       width: 80%;
+    }
+
+    
+
+
+
+
+
 }
