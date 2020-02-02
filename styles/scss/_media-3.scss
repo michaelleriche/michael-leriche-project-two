@@ -1,9 +1,12 @@
-@media (max-width: 740px) {
+@media (max-width: 769px) {
     header {
         height: 55vh;
     }
     h1 {
         font-size: 5rem;
+    }
+    .header-img {
+        width: 50%;
     }
     h1::after {
         background-size: 80px 80px;
@@ -80,16 +83,10 @@
         margin-bottom: 10%;
     }
     .harpers-journey {
-        display: flex;
-        height: 60vh;
-        flex-direction: row;
         justify-content: space-evenly;
-        align-content: space-around;
-        text-align: left;
     }
-    .harpers-journey img {
-        width: 200px;
-        height: 200px;
+    .about-harper {
+        height: 40vh;
     }
     aside,
     article {

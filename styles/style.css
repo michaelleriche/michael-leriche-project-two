@@ -239,7 +239,7 @@ header li {
 }
 
 .secondary-header-nav {
-  height: 10vh;
+  height: 9vh;
   background: #B9DDE7;
 }
 
@@ -256,6 +256,12 @@ form {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+.title-div h2 {
+  position: absolute;
+  top: 360px;
+  font-size: 4rem;
 }
 
 body,
@@ -448,7 +454,7 @@ h1::after {
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -880,11 +886,11 @@ input {
     width: 90%;
   }
   nav a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 0.04rem;
   }
-  .header-img img {
-    width: 90%;
+  .header-img {
+    width: 40%;
   }
   .about-harper-div {
     padding-top: 8%;
@@ -949,8 +955,21 @@ input {
 }
 
 @media (max-width: 1050px) {
+  header {
+    height: 50vh;
+  }
   .about-harper {
     height: 58vh;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h1::after {
+    background-size: 125px 125px;
+    bottom: 40px;
+    left: 325px;
+    width: 125px;
+    height: 125px;
   }
   .about-harper-div {
     margin: 0 auto;
@@ -962,12 +981,15 @@ input {
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 769px) {
   header {
     height: 55vh;
   }
   h1 {
     font-size: 5rem;
+  }
+  .header-img {
+    width: 50%;
   }
   h1::after {
     background-size: 80px 80px;
@@ -1061,24 +1083,12 @@ input {
     margin-bottom: 10%;
   }
   .harpers-journey {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 60vh;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    text-align: left;
   }
-  .harpers-journey img {
-    width: 200px;
-    height: 200px;
+  .about-harper {
+    height: 40vh;
   }
   aside,
   article {
@@ -1106,6 +1116,9 @@ input {
     height: 65px;
     bottom: 20px;
     left: 160px;
+  }
+  .about-harper {
+    height: 50vh;
   }
   .tile {
     width: 100%;
@@ -1187,6 +1200,9 @@ input {
   li h2 {
     display: none;
   }
+  h2 {
+    font-size: 1.7rem;
+  }
   .secondary-header-nav {
     height: 110px;
     display: -webkit-box;
@@ -1201,6 +1217,19 @@ input {
   }
   h2.mobile-header {
     font-size: 4rem;
+  }
+  .title-div h2 {
+    position: relative;
+    top: 0px;
+    font-size: 3rem;
+  }
+  .title-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 

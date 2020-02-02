@@ -1,7 +1,19 @@
 @media (max-width: 1050px) {
-
+    header {
+        height: 50vh;
+    }
     .about-harper {
         height: 58vh;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    h1::after {
+        background-size: 125px 125px;
+        bottom: 40px;
+        left: 325px;
+        width: 125px;
+        height: 125px;
     }
     .about-harper-div {
         margin: 0 auto;

@@ -8,7 +8,7 @@ header li {
     list-style-type: none;
 }
 .secondary-header-nav {
-    height: 10vh;
+    height: 9vh;
     background: $primary-color;
 }
 .blog-aside-nav li {    
@@ -18,4 +18,10 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.title-div h2 {
+    position: absolute;
+    top: 360px;
+    font-size: 4rem;
+
 }

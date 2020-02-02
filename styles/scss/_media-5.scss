@@ -13,6 +13,9 @@
         bottom: 20px;
         left: 160px;
     }
+    .about-harper {
+        height: 50vh;
+    }
     .tile {
         width: 100%;
     }
@@ -78,6 +81,9 @@
     li h2 {
         display: none;
     }
+    h2 {
+        font-size: 1.7rem;
+    }
     .secondary-header-nav {
         height: 110px;
         display: flex;
@@ -87,5 +93,13 @@
     h2.mobile-header {
         font-size: 4rem;
     }
-
+    .title-div h2 {
+        position: relative;
+        top: 0px;
+        font-size: 3rem;
+    }
+    .title-div {
+        display: flex;
+        justify-content: center;
+    }
 }
