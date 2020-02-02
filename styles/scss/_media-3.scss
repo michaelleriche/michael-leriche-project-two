@@ -37,8 +37,6 @@
         width: 100%;
        font-size: 3rem;
     }
-  
-
     form,
     aside,
     article {
@@ -68,21 +66,18 @@
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-
         width: 50%;
         padding-left: 8%;
     }
     .blogs-right {
         width: 100%;
         margin-left: 0;
-        
     }
     .contact-aside {
         display: flex;
         text-align: center;
         width: 100%;
         margin-bottom: 10%;
-
     }
     .harpers-journey {
         display: flex;
@@ -92,12 +87,10 @@
         align-content: space-around;
         text-align: left;
     }
-
     .harpers-journey img {
         width: 200px;
         height: 200px;
     }
-
     aside,
     article {
         display: block;
@@ -107,6 +100,5 @@
         bottom: -40px;
         right: 0px;
         box-shadow: 20px 20px 0px 0px #68B0C1, -250px 20px #68B0C1;
-       
     }
 }

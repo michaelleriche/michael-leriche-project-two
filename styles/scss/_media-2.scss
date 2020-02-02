@@ -1,11 +1,14 @@
 @media (max-width: 1050px) {
 
-.about-harper {
-    height: 58vh;
-}
+    .about-harper {
+        height: 58vh;
+    }
     .about-harper-div {
         margin: 0 auto;
         text-align: center;
         width: 50%;
+    }
+    h2.mobile-header {
+        display: none;
     }
 }

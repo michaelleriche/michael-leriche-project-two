@@ -163,7 +163,6 @@ margin-right: 4%;
     display: flex;
     justify-content: space-evenly;
 }
-
 .gallery-box {
     width: 25%;
 }
@@ -174,14 +173,12 @@ footer {
     justify-content: center;
     color: white;
 }
-
 .blog-body {
     background: $secondary-color;
 }
 .blogs-page {
     margin-top: 7%;
     display: flex;
-
 }
 .blogs-left {
     width: 30%;
@@ -190,7 +187,6 @@ footer {
     width: calc(70% - 20px);
     margin-left: 20px;
 }
-
 aside,
 article {
     background: white;
@@ -214,11 +210,9 @@ aside img {
     height: 38vh;
     margin-top:0;
 }
-
 .blue-border {
     border-bottom: 5px solid $second-accent;
     margin-bottom: 2%;
-
 }
 .secondary-articles {
     display: flex;
@@ -226,19 +220,20 @@ aside img {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+h2.mobile-header {
+    display: none;
+}
 .form-div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5%;
 }
-
 input[type=text],
 input[type=email] {
     width: 49%;
     height: 50px;
     border: 0;
 }
-
 textarea,
 input {
     text-indent: 30px;
@@ -257,14 +252,12 @@ input {
 }
 .fab:hover {
     color:$primary-color;
-    
 }
 .aside-email a {
     font-size: 1.2rem;
     letter-spacing: 0.02rem;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    // margin-bottom: 20px;
 }
 .blog-aside-nav a:hover {
     box-shadow: none;

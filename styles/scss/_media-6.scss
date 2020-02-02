@@ -1,4 +1,44 @@
 @media (max-width: 320px) {
+    .mobile-container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2.9rem;
+    }
+    h1::after {
+        background-size: 50px 50px;
+        bottom: 15px;
+        left: 115px;
+        width: 50px;
+        height: 50px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .gallery {
+        height: 800px;
+    }
+    .blog-section-740 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: left;
+        width: 100%;
+    }
+    .blog-section-740-img {
+        width: 100%;
 
-    
+    }
+    .blog-section-740-text {
+        display: flex;
+        text-align: left;
+        width: 100%;
+        padding-left: 0;
+    }
+    .title-div h2 {
+        font-size: 3rem;
+    }
+    .social-icons {
+        font-size: 2rem;
+    }
 }

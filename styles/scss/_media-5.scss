@@ -3,13 +3,9 @@
     .container {
         width: 95%; 
     }
-    header {
-        height: 50vh;
-    }
     h1 {
         font-size: 4rem;
     }
-
     h1::after {
         background-size: 65px 65px;
         width: 65px;
@@ -66,17 +62,30 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: space-evenly;
-        margin-top: 50px;
+        margin-top: 20px;
         height: 1200px;
     }
    .gallery-box {
        width: 80%;
     }
-
-    
-
-
-
-
+    header ul {
+    display: block;
+    width: 30%;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    li h2 {
+        display: none;
+    }
+    .secondary-header-nav {
+        height: 110px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; 
+    }   
+    h2.mobile-header {
+        font-size: 4rem;
+    }
 
 }

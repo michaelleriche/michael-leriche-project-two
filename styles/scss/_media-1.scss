@@ -2,7 +2,6 @@
     .container {
         width: 90%; 
     }
-  
     nav a {
         font-size: 1rem;
         letter-spacing: 0.04rem;
@@ -18,12 +17,10 @@
     .about-harper {
         height: 56vh;
     }
-
     p {
         font-size: 1rem;
         line-height: 1.75rem;
     }
- 
     .blog-preview-img {
         width: 49%;
     }
@@ -61,5 +58,9 @@
         font-size: 1.5rem;
         width: 60%; 
     }
+    h2.mobile-header {
+        display: none;
+    }
+
 }
 

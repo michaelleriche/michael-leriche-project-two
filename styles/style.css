@@ -800,6 +800,10 @@ aside img {
           justify-content: flex-start;
 }
 
+h2.mobile-header {
+  display: none;
+}
+
 .form-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -939,6 +943,9 @@ input {
     font-size: 1.5rem;
     width: 60%;
   }
+  h2.mobile-header {
+    display: none;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -949,6 +956,9 @@ input {
     margin: 0 auto;
     text-align: center;
     width: 50%;
+  }
+  h2.mobile-header {
+    display: none;
   }
 }
 
@@ -1087,9 +1097,6 @@ input {
   .container {
     width: 95%;
   }
-  header {
-    height: 50vh;
-  }
   h1 {
     font-size: 4rem;
   }
@@ -1164,10 +1171,87 @@ input {
     -webkit-box-align: space-evenly;
         -ms-flex-align: space-evenly;
             align-items: space-evenly;
-    margin-top: 50px;
+    margin-top: 20px;
     height: 1200px;
   }
   .gallery-box {
     width: 80%;
+  }
+  header ul {
+    display: block;
+    width: 30%;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+  li h2 {
+    display: none;
+  }
+  .secondary-header-nav {
+    height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  h2.mobile-header {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .mobile-container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 2.9rem;
+  }
+  h1::after {
+    background-size: 50px 50px;
+    bottom: 15px;
+    left: 115px;
+    width: 50px;
+    height: 50px;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .gallery {
+    height: 800px;
+  }
+  .blog-section-740 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+    width: 100%;
+  }
+  .blog-section-740-img {
+    width: 100%;
+  }
+  .blog-section-740-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding-left: 0;
+  }
+  .title-div h2 {
+    font-size: 3rem;
+  }
+  .social-icons {
+    font-size: 2rem;
   }
 }
